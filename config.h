@@ -7,7 +7,7 @@
  */
 static char *font = "FantasqueSansMono Nerd Font Mono:pixelsize=14:antialias=true:autohint=true";
 static char *font2[] = {
-/*	fontalt0, fontalt1 */
+/*	font1, font2 */
 	"JoyPixels:pixelsize=12:antialias=true:autohint=true",
 	"M+ 1c:pixelsize=20:antialias=true:autohint=true"
 };
@@ -194,8 +194,8 @@ static uint forcemousemod = ShiftMask;
  */
 ResourcePref resources[] = {
 		{ "font",         STRING,  &font },
-		{ "font1",     STRING,  &font2[0] },
-		{ "font2",     STRING,  &font2[1] },
+		{ "font1",        STRING,  &font2[0] },
+		{ "font2",        STRING,  &font2[1] },
 		{ "color0",       STRING,  &colorname[0] },
 		{ "color1",       STRING,  &colorname[1] },
 		{ "color2",       STRING,  &colorname[2] },
