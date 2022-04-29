@@ -8,10 +8,10 @@
 static char *font = "monospace:pixelsize=12";
 static char *font2[] = {
 /*	font1, font2 */
-	"JoyPixels:pixelsize=14:antialias=true:autohint=true",
+  "JoyPixels:pixelsize=14:antialias=true:autohint=true",
   "IPAGothic:pixelsize=12:antialias=true:autohint=true",
   "Source Han Sans JP:pixelsize=12:antialias=true:autohint=true",
-	"M+ 1c:pixelsize=18:antialias=true:autohint=true"
+  "M+ 1c:pixelsize=18:antialias=true:autohint=true"
 };
 
 static int borderpx = 2;
