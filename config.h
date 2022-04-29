@@ -9,6 +9,8 @@ static char *font = "monospace:pixelsize=12";
 static char *font2[] = {
 /*	font1, font2 */
 	"JoyPixels:pixelsize=14:antialias=true:autohint=true",
+  "IPAGothic:pixelsize=12:antialias=true:autohint=true",
+  "Source Han Sans JP:pixelsize=12:antialias=true:autohint=true",
 	"M+ 1c:pixelsize=18:antialias=true:autohint=true"
 };
 
@@ -196,6 +198,9 @@ ResourcePref resources[] = {
 		{ "font",         STRING,  &font },
 		{ "font1",        STRING,  &font2[0] },
 		{ "font2",        STRING,  &font2[1] },
+		{ "font3",        STRING,  &font2[2] },
+		{ "font4",        STRING,  &font2[3] },
+		{ "font5",        STRING,  &font2[4] },
 		{ "color0",       STRING,  &colorname[0] },
 		{ "color1",       STRING,  &colorname[1] },
 		{ "color2",       STRING,  &colorname[2] },
