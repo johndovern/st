@@ -1,1 +1,7 @@
 .ccls-cache/
+*.orig
+*.rej
+*.diff
+compile_commands.json
+*.o
+/st
